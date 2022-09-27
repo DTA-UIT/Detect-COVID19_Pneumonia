@@ -166,11 +166,10 @@ Confusion matrix of ResNet50 (left) and VGG16 (right).
        
 </div>
 
-<div alig
+<div align='center'>
+
 
 <a href="https://user-images.githubusercontent.com/67086934/192569841-64cb422d-65ff-4961-abf6-c4dec7bbaefb.mp4">Demo mobile</a>
-
-n='center'>
 
 
 </div>
