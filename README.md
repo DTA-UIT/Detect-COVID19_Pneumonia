@@ -4,7 +4,7 @@
 
 </div>
 
-In this work, we propose a rapidly testing method which has a high productivity in a short time. In details, we will apply deep learning neural networks, e.g. ResNet50 and VGG19 to solve this problem. After that, we will proceed analysing pros and cons of those models for a thorough vision about applying artificial intelligence in COVID-19 rapid testing.
+In this work, we propose a rapidly testing method which has a high productivity in a short time. In details, we will apply deep learning neural networks, e.g. ResNet50 and VGG16 to solve this problem. After that, we will proceed analysing pros and cons of those models for a thorough vision about applying artificial intelligence in COVID-19 rapid testing.
 ### Contents
 1. [Introduction](#1-introduction)
 2. [Prerequisites ](#2-prerequisites)
@@ -29,7 +29,7 @@ In this research, we use [COVIDx dataset](https://github.com/lindawangg/COVID-Ne
 We proposed using *diagnostic imaging*, which is an approach using Chest X-ray (CXR) image. This is due to its lower cost and faster testing time in comparison with Real-time Polymerase Chain Reaction (RT PCR) or Computed Tomography (CT) Image.
 
 #### Model approach
-Throughout this research, we use 2 different approaches which are **ResNet50** and **VGG19** to solve this problem. VGG19 is a deep neural network architecture under-using residual design principals, it is also a compact architecture which has a low diversity of architectures. On the other hand, ResNet50 is a deep neural network harnessing residual design principles and it has a moderate diversity of architectures. This network brings many a high productivity in a large number of researching in classifying X-ray images. Despite each approach has its own benefits and drawbacks, both are proved their productivity through real application.
+Throughout this research, we use 2 different approaches which are **ResNet50** and **6** to solve this problem. VGG16 is a deep neural network architecture under-using residual design principals, it is also a compact architecture which has a low diversity of architectures. On the other hand, ResNet50 is a deep neural network harnessing residual design principles and it has a moderate diversity of architectures. This network brings many a high productivity in a large number of researching in classifying X-ray images. Despite each approach has its own benefits and drawbacks, both are proved their productivity through real application.
 
 ### 2. Prerequisites 
 - Python >=  3.6
@@ -81,9 +81,14 @@ We use the hyperparameters settings to do the training for two models demonstrat
 - Learning rate's patience: 1
 - Input resolution: 480x480
        
-       
+
 The training process is conducted on Colab Pro Plus with NVidia P100 GPU, 32GB RAM, 4 vCPU CPU.     
 
 ### 7. Results 
+<div align='center'>
+
+<img src='assets/confusion-matrix.png' width='80%'>
+
+</div>
 
 ### 8. Demo
