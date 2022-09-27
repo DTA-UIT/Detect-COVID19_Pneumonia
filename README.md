@@ -92,18 +92,20 @@ The training process is conducted on Colab Pro Plus with NVidia P100 GPU, 32GB R
 Confusion matrix of ResNet50 (left) and VGG16 (right).
 </div>
 
+<div align='center'>
+
 | | Precision | Recall | F-score | Image numbers | 
 |:--:|:--:|:--:|:--:|:--:|
 | COVID-19 | 0.99 | 1.00 | 1.00 | 200 | 
 | Normal | 0.89 | 0.98 | 0.93 | 100 |
 | Pneumonia | 0.99 | 0.87 | 0.93 | 100 | 
 
-<div align='center'>
 
 <b>Table 2.</b>Classification report of VGG16.
 
 </div>
 
+<div align='center'>
 
 | | Precision | Recall | F-score | Image numbers | 
 |:--:|:--:|:--:|:--:|:--:|
@@ -111,7 +113,6 @@ Confusion matrix of ResNet50 (left) and VGG16 (right).
 | Normal | 0.94 | 0.98 | 0.96 | 100 |
 | Pneumonia | 0.99 | 0.94 | 0.96 | 100 |
 
-<div align='center'>
 
 <b>Table 3.</b> Classification report of ResNet50.
 
@@ -126,6 +127,9 @@ Confusion matrix of ResNet50 (left) and VGG16 (right).
 
 </div>
 
+
+<div align='center'>
+
 | | Accuracy | Number of parameters | Training time (hour) | 
 |:--:|:--:|:--:|:--:|
 | VGG16 | 96.24% | 14,781,251 | 17,1 | 
@@ -133,6 +137,8 @@ Confusion matrix of ResNet50 (left) and VGG16 (right).
 | VGG19 (Wang et al. [1]) | 83% | 20,370,000 | - | 
 | ResNet50 (Wang et al. [1]) | 90.6% | 24,970,000 | - | 
 | COVID-Net (Wang et al. [1]) |  93.3% | 11,750,000 | - | 
+
+</div>
 
 <div align='center'>
 
