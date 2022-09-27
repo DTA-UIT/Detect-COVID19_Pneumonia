@@ -157,14 +157,20 @@ Confusion matrix of ResNet50 (left) and VGG16 (right).
 ### 8. Demo
 
 <div align='center'>
-<a link href ="assets/web_demo.mp4">Demo web</a>
+
+
+<a href="https://user-images.githubusercontent.com/67086934/192569822-4a3a44f1-883e-4979-ae1d-8cf3cec830e2.mp4">Demo web</a>
+
+
+       
+       
 </div>
 
-<div align='center'>
+<div alig
 
-<video width="320" height="240" autoplay>
-  <source src="assets/mobile_demo.mp4" type="video/mp4">
-  </video>
+<a href="https://user-images.githubusercontent.com/67086934/192569841-64cb422d-65ff-4961-abf6-c4dec7bbaefb.mp4">Demo mobile</a>
+
+n='center'>
 
 
 </div>
