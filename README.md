@@ -29,7 +29,7 @@ In this research, we use [COVIDx dataset](https://github.com/lindawangg/COVID-Ne
 We proposed using *diagnostic imaging*, which is an approach using Chest X-ray (CXR) image. This is due to its lower cost and faster testing time in comparison with Real-time Polymerase Chain Reaction (RT PCR) or Computed Tomography (CT) Image.
 
 #### Model approach
-Throughout this research, we use 2 different approaches which are **ResNet50** and **6** to solve this problem. VGG16 is a deep neural network architecture under-using residual design principals, it is also a compact architecture which has a low diversity of architectures. On the other hand, ResNet50 is a deep neural network harnessing residual design principles and it has a moderate diversity of architectures. This network brings many a high productivity in a large number of researching in classifying X-ray images. Despite each approach has its own benefits and drawbacks, both are proved their productivity through real application.
+Throughout this research, we use 2 different approaches which are **ResNet50** and **VGG16** to solve this problem. VGG16 is a deep neural network architecture under-using residual design principals, it is also a compact architecture which has a low diversity of architectures. On the other hand, ResNet50 is a deep neural network harnessing residual design principles and it has a moderate diversity of architectures. This network brings many a high productivity in a large number of researching in classifying X-ray images. Despite each approach has its own benefits and drawbacks, both are proved their productivity through real application.
 
 ### 2. Prerequisites 
 - Python >=  3.6
