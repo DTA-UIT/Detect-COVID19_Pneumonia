@@ -24,7 +24,7 @@ This work is conducted by:
 - [An Vo](https://github.com/vokhanhan25)
 - [Dang Vu](https://github.com/twelcone/)
 #### Dataset's description
-In this research, we use [COVIDx dataset](https://github.com/lindawangg/COVID-Net) [2] - which is a widely used dataset in recent research about COVID-19 nowadays. COVIDx Datset is a dataset synthesized from many a different source, which are in details: Cohen et al. [3], Chung [4], Chung [5], Radiological Society of North America [5],and Radiological Society of North America [6]. Additionally, this dataset also provides an image extension transfer tool: from `.mri` into `.jpg`. And the author moreover provide a code to support data pre-processing and getting rid of unnecessary part for synthesized data.
+In this research, we use [COVIDx dataset](https://github.com/lindawangg/COVID-Net) - which is a widely used dataset in recent research about COVID-19 nowadays. Additionally, this dataset also provides an image extension transfer tool: from `.mri` into `.jpg`. And the author moreover provide a code to support data pre-processing and getting rid of unnecessary part for synthesized data.
 #### Method
 We proposed using *diagnostic imaging*, which is an approach using Chest X-ray (CXR) image. This is due to its lower cost and faster testing time in comparison with Real-time Polymerase Chain Reaction (RT PCR) or Computed Tomography (CT) Image.
 
@@ -46,7 +46,7 @@ jupyter notebook
 ```
 
 ### 4. Dataset demonstration
-We would use COVIDx dataset version 5 [1] with about 30,000 CXR images. The dataset's author also supply some tools to support the preprocessing process, e.g., transforming medical images from the original format into the more popular ones `.jpg`, synthesizing and removing duplicated components in the datasets. Additionally, we also split the dataset into three separate sets including train set, validation set, and test set with the distribution appeared in Table 1.
+We would use COVIDx dataset version 5 with about 30,000 CXR images. The dataset's author also supply some tools to support the preprocessing process, e.g., transforming medical images from the original format into the more popular ones `.jpg`, synthesizing and removing duplicated components in the datasets. Additionally, we also split the dataset into three separate sets including train set, validation set, and test set with the distribution appeared in Table 1.
 
 
 <div align='center'>
@@ -77,7 +77,7 @@ We would use COVIDx dataset version 5 [1] with about 30,000 CXR images. The data
 
 We use the hyperparameters settings to do the training for two models demonstrated as follows:
 - learning rate:  1e-3
-- Optimization algorithm: Adam [14]
+- Optimization algorithm: Adam
 - Number of epochs: 30
 - Batch size: 32
 - Factor: 0.1
