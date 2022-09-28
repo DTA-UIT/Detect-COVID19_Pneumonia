@@ -48,6 +48,10 @@ jupyter notebook
 ### 4. Dataset demonstration
 We would use COVIDx dataset version 5 [1] with about 30,000 CXR images. The dataset's author also supply some tools to support the preprocessing process, e.g., transforming medical images from the original format into the more popular ones `.jpg`, synthesizing and removing duplicated components in the datasets. Additionally, we also split the dataset into three separate sets including train set, validation set, and test set with the distribution appeared in Table 1.
 
+
+<div align='center'>
+
+
 | | Train | Validation | Test | Sum |
 |:--:|:--:|:--:|:--:|:--:|
 | COVID-19 | 13,192 | 3298 | 200 | 16690 | 
@@ -55,7 +59,6 @@ We would use COVIDx dataset version 5 [1] with about 30,000 CXR images. The data
 | Pneumonia | 4444 | 1111 | 100 | 5655 | 
 | Sum | 24104 | 6026 | 400 | 30530 | 
 
-<div align='center'>
 
 <b> Table 1. </b> Dataset's distribution
 
